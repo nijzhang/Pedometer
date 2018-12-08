@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+   <org.eazegraph.lib.charts.PieChart
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:id="@+id/xmlPichar"/>
+   <TextView
+      android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/xml_yest_textv"
+       android:text="Yesterday   16661"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/xml_total_textv"
+       android:text="Total 190932"
+       />
+   <org.eazegraph.lib.charts.BarChart
+       android:layout_width="match_parent"
+       android:layout_height="235dp"
+       android:id="@+id/xmlbarchar"
+       android:padding="10dp"
+       />
+</LinearLayout>
